@@ -1,0 +1,9 @@
+.bigger-font {
+    font-size: 16pt;
+}
+
+.top-div {
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    box-shadow: 0 0 20px 0px black;
+}
