@@ -1,5 +1,12 @@
 * {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: rgb(33,37,41); 
+    color: white; 
 }
 
 .main-color {
@@ -123,12 +130,12 @@ a:hover {
     z-index: 100000;
 }
 
-.purple-shadow-cards {
+.blue-shadow-cards {
     box-shadow: 0 0 30px 0px rgba(30, 143, 255, 0.822);
     transition: 0.2s all;
 }
 
-.purple-shadow-cards:hover{
+.blue-shadow-cards:hover{
     transform: translateY(-10px);
     box-shadow: 0 0 10px 0px rgba(30, 143, 255, 0.822);
     transition: 0.2s all;
@@ -144,6 +151,10 @@ a:hover {
 
 .bold-font {
     font-weight: bold;
+}
+
+.mt-c {
+    margin-top: 200px;
 }
 
 .card-height {
