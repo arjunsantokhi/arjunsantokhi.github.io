@@ -1,9 +1,215 @@
-.bigger-font {
-    font-size: 16pt;
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main-color {
+    color: dodgerblue;
+}
+
+.dashboard {
+    height: 100vh;
+    min-height: 100vh;
+}
+
+main {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 100vh;
+    height: -webkit-fill-available;
+    max-height: 100vh;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.main-color-bg {
+    background-color: dodgerblue;
+}
+
+.nav-link.active {
+    background-color: dodgerblue;
+}
+
+.main-bg {
+    background-image: linear-gradient(0deg, dodgerblue, #212529);
+}
+
+.fill {
+    height: 100vh;
+}
+
+.title:hover {
+    text-decoration: none;
+    color: dodgerblue;
+    transition: all 0.2s;
+}
+
+.title {
+    transition: all 0.2s;
+}
+
+hr {
+    border: 2px solid dodgerblue;
+    opacity: 1;
+    width: 100px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.login-form {
+    width: 500px;
+    height: 450px;
+    background-color: rgba(255,255,255,0.05);
+    margin: auto;
+    box-shadow: 0 0 30px 0 black;
+}
+
+.register-form {
+    width: 500px;
+    height: 450px;
+    background-color: rgba(255,255,255,0.05);
+    margin: auto;
+    box-shadow: 0 0 30px 0 black;
+}
+
+.img-banner {
+    box-shadow: 0 0 20px 0 black;
+}
+
+.main-bg-2 {
+    background-image: linear-gradient(180deg, dodgerblue, #212529);
+}
+
+.back-opacity {
+    background-color: #212529d9;
+}
+
+.z-index-ani {
+    z-index: -10000000000;
+}
+
+.content {
+    width: 100%;
 }
 
 .top-div {
-    border-bottom-left-radius: 20%;
-    border-bottom-right-radius: 20%;
-    box-shadow: 0 0 20px 0px black;
+    height: 100vh;
+    border-bottom-right-radius: 100%;
+    box-shadow: 0 0 35px 5px rgba(30, 143, 255, 0.822);
+}
+
+.bottom-div {
+    background-color: dodgerblue;
+    border-top-left-radius: 100%;
+    box-shadow: 0 0 35px 5px rgba(30, 143, 255, 0.822);
+}
+
+.main-shadow {
+    box-shadow: 0 0 25px 0 dodgerblue;
+}
+
+a {
+    text-decoration: underline solid dodgerblue;
+}
+
+a:hover {
+    text-decoration: underline solid dodgerblue;
+}
+
+.footer {
+    height: 300px;
+}
+
+.z-1 {
+    z-index: 100000;
+}
+
+.purple-shadow-cards {
+    box-shadow: 0 0 30px 0px rgba(30, 143, 255, 0.822);
+    transition: 0.2s all;
+}
+
+.purple-shadow-cards:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 0 10px 0px rgba(30, 143, 255, 0.822);
+    transition: 0.2s all;
+}
+
+.btn-shadow {
+    box-shadow: 0 0 20px 0px rgb(0, 0, 0);
+}
+
+.center-div {
+    height: 500px;
+}
+
+.bold-font {
+    font-weight: bold;
+}
+
+.card-height {
+    height: 300px;
+}
+
+.dark-shadow {
+    box-shadow: 0 0 30px 0px #000;
+}
+
+@keyframes swingViewport {
+    from {
+      opacity: 0;
+      border-bottom-right-radius: 0%;
+    }
+    to {
+      opacity: 1;
+      border-bottom-right-radius: 100%;
+    }
+  }
+
+.top-ani {
+    animation: 2s ease-in-out alternate swingViewport;
+}
+
+.ani {
+    opacity: 0;
+    transition: 1s all ease;
+}
+
+.ani.active {
+    opacity: 1;
+}
+
+.reveal {
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s all ease;
+}
+
+.reveal.active {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #394047a8;
+    border-radius: 20px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #404952a8;
+}
+
+::-webkit-scrollbar-thumb:active {
+    background: #32383fa8;
 }
