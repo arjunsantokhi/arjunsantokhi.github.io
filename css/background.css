@@ -127,8 +127,12 @@
     background: rgba(255, 255, 255, 0);
 }
 
-.color {
+.color-dark {
     background: rgba(255, 255, 255, 0.05)
+}
+
+.color-blue {
+    background: rgba(30, 144, 255, 0.05)
 }
 
 @keyframes animate {
