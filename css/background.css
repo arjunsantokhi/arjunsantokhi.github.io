@@ -132,7 +132,7 @@
 }
 
 .color-blue {
-    background: rgba(30, 144, 255, 0.05)
+    background: rgba(30, 144, 255, 0.3)
 }
 
 @keyframes animate {
