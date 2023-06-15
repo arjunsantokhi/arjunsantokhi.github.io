@@ -103,7 +103,8 @@ hr {
 }
 
 a {
-    text-underline-offset: 1px;
+    text-underline-offset: 0px;
+    transition: 0.2s all;
     text-decoration: none;
 }
 
@@ -228,4 +229,23 @@ a:hover {
 
 ::-webkit-scrollbar-thumb:active {
     background: #32383fa8;
+}
+
+@keyframes fadingText {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.changing-text{
+    opacity: 0;
+    animation: 2s ease-in-out infinite fadingText;
 }
