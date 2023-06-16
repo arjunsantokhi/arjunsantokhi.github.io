@@ -18,6 +18,10 @@ body {
     min-height: 100vh;
 }
 
+.hr-new {
+    margin: 0;
+}
+
 main {
     display: flex;
     flex-wrap: nowrap;
